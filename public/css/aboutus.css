@@ -1,0 +1,164 @@
+/* Reset CSS */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #F0F0F0;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: inherit; /* or specify the desired color */
+    text-decoration: none;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6b6161;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 0;
+}
+
+.Container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content area */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.logo h1 {
+    color: #333; /* Dark grey heading color */
+}
+
+.Container p {
+    color: #666; /* Medium grey paragraph color */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #102675;
+    color: #dac3c3;
+    padding: 40px 0;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.footer-logo {
+    order: 1;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    order: 2;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.footer-social h3 {
+    color: #e7dfdf; /* Adjust color as needed */
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between items */
+}
+
+.footer-social a {
+    display: block;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    line-height: 40px; /* Adjust line height to center vertically */
+    text-align: center;
+    border-radius: 50%; /* Make it round */
+    background-color: #ccc; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: #2e2165; /* Adjust hover background color as needed */
+}
+
+.footer-social img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    order: 4;
+}

@@ -1,0 +1,247 @@
+/* Reset CSS */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+/* Header Styles */
+header {
+    background-color: #7d79ce;
+    padding: px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 0;
+    background-image: url('../dist/img/home/home.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 98.9vw;
+    height: 100vh;
+}
+.background-div {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+.login {
+    background-color: #7d66cf;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 250px; /* Set a fixed width for the login section */
+    position: absolute; /* Make the login section positioned absolutely */
+    left: 50PX; /* Align it to the left edge of the viewport */
+    top: 50%; /* Position it vertically at the center of the viewport */
+    transform: translateY(-50%); /* Adjust vertical position for different content heights (optional) */
+}
+
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-login img {
+    max-width: 15%;
+    max-height: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
+.checkbox label {
+    font-size: 12px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button button {
+    background-color: rgb(18, 148, 77) /* Add your desired background color here */;
+    color: #fff; /* Add your desired text color here */
+    padding: 10px 20px; /* Add your desired padding values here */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: blue /* Add your desired hover background color here */;
+}
+
+
+
+/* feature property*/
+.featured-properties {
+    text-align: center;
+    background-color: rgb(98, 115, 178);
+}
+
+.featured-properties h2 {
+    margin-bottom: 20px;
+    background-color: #ccc;
+}
+
+.properties-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.property {
+    width: 300px;
+    margin-bottom: 20px
+}
+
+/* Footer Styles */
+footer {
+    background-color: #102675;
+    color: #dac3c3;
+    padding: 40px 0;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.footer-logo {
+    order: 1;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    order: 2;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.footer-social h3 {
+    color: #e7dfdf; /* Adjust color as needed */
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between items */
+}
+
+.footer-social a {
+    display: block;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    line-height: 40px; /* Adjust line height to center vertically */
+    text-align: center;
+    border-radius: 50%; /* Make it round */
+    background-color: #ccc; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: #2e2165; /* Adjust hover background color as needed */
+}
+
+.footer-social img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    order: 4;
+}
